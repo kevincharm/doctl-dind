@@ -1,7 +1,6 @@
 FROM docker:19-dind
 
-ARG DOCTL_VERSION
-ENV DOCTL_VERSION=$DOCTL_VERSION
+ENV DOCTL_VERSION=1.46.0
 
 RUN apk add --no-cache curl
 
